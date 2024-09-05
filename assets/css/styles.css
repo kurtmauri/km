@@ -14,7 +14,7 @@ body {
   zoom: 0.9;
 }
 
-.info{
+.info, h1, h4{
   cursor: default;
 }
 
