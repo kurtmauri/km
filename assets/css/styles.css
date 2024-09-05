@@ -1,0 +1,159 @@
+* {
+  font-family: sans-serif, 'Poppins';
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background: black;
+}
+
+.container {
+  zoom: 0.9;
+}
+
+.modal{
+  zoom: 1.111;
+}
+
+.fab:hover {
+  transform: scale(1.15);
+  cursor: pointer;
+}
+
+.fab {
+  transition: .3s ease-in-out;
+  font-size: 65px !important;
+}
+
+.btn-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+.btn-overlay:hover {
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  transition: opacity 0.25s ease;
+  opacity: 1;
+}
+
+ul.timeline {
+  list-style-type: none;
+  position: relative;
+}
+
+ul.timeline::before {
+  content: " ";
+  background: #d4d9df;
+  display: inline-block;
+  position: absolute;
+  left: 29px;
+  width: 2px;
+  height: 100%;
+  z-index: 400;
+}
+
+ul.timeline > li {
+  margin: 20px 0;
+  padding-left: 20px;
+}
+
+ul.timeline > li::before {
+  content: " ";
+  background: white;
+  display: inline-block;
+  position: absolute;
+  border-radius: 50%;
+  border: 3px solid rgb(255,168,0);;
+  left: 20px;
+  width: 20px;
+  height: 20px;
+  z-index: 400;
+}
+
+@media (max-width: 1200px) {
+  .info, h1 {
+    font-size: 35px !important;
+  }
+}
+
+@media (max-width: 991px) {
+  .info, h1 {
+    font-size: 40px !important;
+  }
+}
+
+@media (max-width: 510px) {
+  .info, h1 {
+    font-size: 34px!important;
+  }
+}
+
+@media (max-width: 440px) {
+  .info, h1 {
+    font-size: 30px!important;
+  }
+}
+
+@media (max-width: 440px) {
+  .info, h1 {
+    font-size: 24px!important;
+  }
+}
+
+@media (max-width: 333px) {
+  .info, h1 {
+    font-size: 20px!important;
+  }
+}
+
+@media (max-width: 1400px) {
+  .CV, h5 {
+    font-size: 13px !important;
+  }
+}
+
+@media (max-width: 1200px) {
+  .CV, h5 {
+    font-size: 13px !important;
+  }
+}
+
+@media (max-width: 991px) {
+  .CV, h5 {
+    font-size: 20px !important;
+    text-align: center !important;
+  }
+}
+
+@media (max-width: 440px) {
+  .logo {
+    width: 32px;
+    height: auto;
+  }
+}
+
+@media (max-width: 770px) {
+  .achievments, p {
+    font-size: 10px !important;
+  }
+}
+
+@media (max-width: 225px) {
+  .achievments, i, span {
+    font-size: 15px !important;
+  }
+}
+
+@media (max-width: 225px) {
+  .achievments, p {
+    font-size: 7px !important;
+  }
+}
