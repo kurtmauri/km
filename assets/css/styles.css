@@ -22,6 +22,14 @@ body {
   zoom: 1.111;
 }
 
+.project:hover{
+  transform: scale(1.05);
+}
+
+.project{
+  transition: .3s ease-in-out;
+}
+
 .fab:hover {
   transform: scale(1.15);
   cursor: pointer;
